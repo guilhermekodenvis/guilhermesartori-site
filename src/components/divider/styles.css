@@ -1,0 +1,22 @@
+div.divider {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 80px;
+}
+
+div.divider div {
+  width: 200px;
+  height: 1px;
+  background: #67ba50;
+
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+div.divider p {
+  color: #67ba50;
+  margin-top: 0;
+}

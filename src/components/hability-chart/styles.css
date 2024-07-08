@@ -1,0 +1,68 @@
+.hability-container {
+  width: 100%;
+  background: #060507;
+  border-radius: 24px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 16px;
+
+  margin-top: 24px;
+}
+
+.hability-container img {
+  max-height: 80px;
+  border-radius: 16px;
+}
+
+.hability-container .info-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  margin-left: 16px;
+}
+
+.hability-container .info-container h5 {
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  color: #eee5ff;
+}
+
+.info-container .top-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info-container .top-info p {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.chart {
+  width: 100%;
+  height: 14px;
+  position: relative;
+
+  margin-top: 16px;
+}
+
+.chart .chart-full {
+  background: #cce4c5;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+
+  position: absolute;
+}
+
+.chart .chart-percent {
+  background: #67ba50;
+  height: 100%;
+
+  border-radius: 16px;
+  position: absolute;
+}
